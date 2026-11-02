@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gumlung12-multiling_jd444"
+name = "gumlung12-attention_kernel_bandwidth_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出多语言模型工程师·注意力核��的访存瓶颈的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://gumlung12.github.io"
-Repository = "https://github.com/gumlung12/multiling_jd444"
-Issues = "https://github.com/gumlung12/multiling_jd444/issues"
+Repository = "https://github.com/gumlung12/attention_kernel_bandwidth_coverage_map"
+Issues = "https://github.com/gumlung12/attention_kernel_bandwidth_coverage_map/issues"
 
 [project.scripts]
-multiling_jd444 = "multiling_jd444:main"
+attention_kernel_bandwidth_coverage_map = "attention_kernel_bandwidth_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["multiling_jd444"]
+py-modules = ["attention_kernel_bandwidth_coverage_map"]

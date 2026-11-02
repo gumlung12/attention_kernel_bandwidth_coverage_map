@@ -1,11 +1,11 @@
-# multiling_jd444
+# attention_kernel_bandwidth_coverage_map
 
 **映射多语言模型工程师·注意力核��的访存瓶颈的覆盖情况并找出未覆盖的部分。**
 
-`multiling_jd444` —— 把候选项映射到类别上，算出多语言模型工程师·注意力核��的访存瓶颈的覆盖率并列出未覆盖的类别
+`attention_kernel_bandwidth_coverage_map` —— 把候选项映射到类别上，算出多语言模型工程师·注意力核��的访存瓶颈的覆盖率并列出未覆盖的类别
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`multiling_jd444.py` 拷走就能用
+- 单文件，`attention_kernel_bandwidth_coverage_map.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install gumlung12-multiling_jd444
+pip install gumlung12-attention_kernel_bandwidth_coverage_map
 ```
 
 装完直接用命令名调用：
 
 ```bash
-multiling_jd444 --help
+attention_kernel_bandwidth_coverage_map --help
 ```
 
-也可以不用安装，直接把 `multiling_jd444.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `attention_kernel_bandwidth_coverage_map.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ multiling_jd444 --help
 ## 用法
 
 ```bash
-python multiling_jd444.py --file input.txt
-python multiling_jd444.py --text "示例内容"
-python multiling_jd444.py --file input.txt --json
+python attention_kernel_bandwidth_coverage_map.py --file input.txt
+python attention_kernel_bandwidth_coverage_map.py --text "示例内容"
+python attention_kernel_bandwidth_coverage_map.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python multiling_jd444.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_multiling_jd444.py
+python test_attention_kernel_bandwidth_coverage_map.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_multiling_jd444.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/gumlung12/multiling_jd444>
+- GitHub 仓库：<https://github.com/gumlung12/attention_kernel_bandwidth_coverage_map>
 
 ---
 
@@ -79,7 +79,7 @@ python test_multiling_jd444.py
 gumlung12 做多语言模型工程师·注意力核��的访存瓶颈相关的问题，方向对标英伟达的实习多语言模型工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://gumlung12.github.io>
-- 仓库：<https://github.com/gumlung12/multiling_jd444>
+- 仓库：<https://github.com/gumlung12/attention_kernel_bandwidth_coverage_map>
 
 ## 许可
 
